@@ -1,5 +1,8 @@
 *.js    linguist-language=JavaScript
+*.js    text/javascript
 *.mjs   linguist-language=JavaScript
+*.mjs   text/javascript
 *.css   linguist-language=CSS
+*.css   text/css
 *.json  linguist-language=JSON
 *.svg   linguist-language=SVG
