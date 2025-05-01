@@ -1,0 +1,5 @@
+application/javascript  .js
+application/javascript  .mjs
+text/css                .css
+application/json        .json
+image/svg+xml           .svg
