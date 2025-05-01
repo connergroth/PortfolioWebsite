@@ -30,6 +30,10 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap">
     </noscript>
     
+    <!-- Load React directly from CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
     <style>
       /* Font display optimization */
       body {
@@ -48,13 +52,14 @@
         scroll-behavior: smooth;
       }
     </style>
-    <script type="module" crossorigin src="./assets/index-Cz3P8vkP.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Bj2_4YlG.css">
+    <script async type="module" crossorigin src="./assets/app.js"></script>
   </head>
 
   <body>
     <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module" content-type="application/javascript"></script>
+    
+    <!-- Load external scripts -->
+    <script src="https://cdn.gpteng.co/gptengineer.js"></script>
+    <script src="./assets/app.js"></script>
   </body>
 </html> 
